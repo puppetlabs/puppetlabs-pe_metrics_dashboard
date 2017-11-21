@@ -113,7 +113,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.jruby.num-jrubies",
+              "measurement": "puppetlabs.<%= $master %>.jruby.num-jrubies",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "A",
@@ -152,7 +152,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.jruby.num-free-jrubies",
+              "measurement": "puppetlabs.<%= $master %>.jruby.num-free-jrubies",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "B",
@@ -191,7 +191,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.jruby.free-jrubies-histo.mean",
+              "measurement": "puppetlabs.<%= $master %>.jruby.free-jrubies-histo.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "C",
@@ -230,7 +230,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.jruby.requested-jrubies-histo.mean",
+              "measurement": "puppetlabs.<%= $master %>.jruby.requested-jrubies-histo.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "D",
@@ -342,7 +342,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.jruby.borrow-timer.mean",
+              "measurement": "puppetlabs.<%= $master %>.jruby.borrow-timer.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "A",
@@ -381,7 +381,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.jruby.wait-timer.mean",
+              "measurement": "puppetlabs.<%= $master %>.jruby.wait-timer.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "B",
@@ -420,7 +420,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.jruby.lock-held-timer.mean",
+              "measurement": "puppetlabs.<%= $master %>.jruby.lock-held-timer.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "C",
@@ -459,7 +459,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.jruby.lock-wait-timer.mean",
+              "measurement": "puppetlabs.<%= $master %>.jruby.lock-wait-timer.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "D",
@@ -576,7 +576,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.memory.heap.used",
+              "measurement": "puppetlabs.<%= $master %>.memory.heap.used",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "A",
@@ -615,7 +615,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.memory.non-heap.used",
+              "measurement": "puppetlabs.<%= $master %>.memory.non-heap.used",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "B",
@@ -654,7 +654,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.num-cpus",
+              "measurement": "puppetlabs.<%= $master %>.num-cpus",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "C",
@@ -783,7 +783,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.puppet-v3-catalog-/*/-requests.mean",
+              "measurement": "puppetlabs.<%= $master %>.http.puppet-v3-catalog-/*/-requests.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "A",
@@ -822,7 +822,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.puppet-v3-report-/*/-requests.mean",
+              "measurement": "puppetlabs.<%= $master %>.http.puppet-v3-report-/*/-requests.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "B",
@@ -861,7 +861,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.puppet-v3-node-/*/-requests.mean",
+              "measurement": "puppetlabs.<%= $master %>.http.puppet-v3-node-/*/-requests.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "C",
@@ -900,7 +900,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.puppet-v3-file_metadatas-/*/-requests.mean",
+              "measurement": "puppetlabs.<%= $master %>.http.puppet-v3-file_metadatas-/*/-requests.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "D",
@@ -939,7 +939,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.puppet-v3-file_metadata-/*/-requests.mean",
+              "measurement": "puppetlabs.<%= $master %>.http.puppet-v3-file_metadata-/*/-requests.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "E",
@@ -978,7 +978,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.puppet-v3-file_content-/*/-requests.mean",
+              "measurement": "puppetlabs.<%= $master %>.http.puppet-v3-file_content-/*/-requests.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "F",
@@ -1017,7 +1017,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.total-requests.mean",
+              "measurement": "puppetlabs.<%= $master %>.http.total-requests.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "G",
@@ -1131,7 +1131,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.compiler.static_compile.mean",
+              "measurement": "puppetlabs.<%= $master %>.compiler.static_compile.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "A",
@@ -1170,7 +1170,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.functions.mean",
+              "measurement": "puppetlabs.<%= $master %>.functions.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "B",
@@ -1209,7 +1209,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.compiler.find_node.mean",
+              "measurement": "puppetlabs.<%= $master %>.compiler.find_node.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "C",
@@ -1248,7 +1248,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.compiler.static_compile.mean",
+              "measurement": "puppetlabs.<%= $master %>.compiler.static_compile.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "D",
@@ -1287,7 +1287,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.compiler.static_compile_postprocessing.mean",
+              "measurement": "puppetlabs.<%= $master %>.compiler.static_compile_postprocessing.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "E",
@@ -1326,7 +1326,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.compiler.find_facts.mean",
+              "measurement": "puppetlabs.<%= $master %>.compiler.find_facts.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "F",
@@ -1438,7 +1438,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http-client.experimental.with-metric-id.puppetdb.command.replace_facts.full-response.mean",
+              "measurement": "puppetlabs.<%= $master %>.http-client.experimental.with-metric-id.puppetdb.command.replace_facts.full-response.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "A",
@@ -1477,7 +1477,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http-client.experimental.with-metric-id.puppetdb.command.replace_catalog.full-response.mean",
+              "measurement": "puppetlabs.<%= $master %>.http-client.experimental.with-metric-id.puppetdb.command.replace_catalog.full-response.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "B",
@@ -1516,7 +1516,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http-client.experimental.with-metric-id.puppetdb.command.store_report.full-response.mean",
+              "measurement": "puppetlabs.<%= $master %>.http-client.experimental.with-metric-id.puppetdb.command.store_report.full-response.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "C",
@@ -1555,7 +1555,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http-client.experimental.with-metric-id.puppetdb.facts.find.full-response.mean",
+              "measurement": "puppetlabs.<%= $master %>.http-client.experimental.with-metric-id.puppetdb.facts.find.full-response.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "D",
@@ -1594,7 +1594,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http-client.experimental.with-metric-id.puppetdb.query.full-response.mean",
+              "measurement": "puppetlabs.<%= $master %>.http-client.experimental.with-metric-id.puppetdb.query.full-response.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "F",
@@ -1633,7 +1633,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.puppetdb.report.process.mean",
+              "measurement": "puppetlabs.<%= $master %>.puppetdb.report.process.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "G",
@@ -1672,7 +1672,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http-client.experimental.with-metric-id.classifier.nodes.full-response.mean",
+              "measurement": "puppetlabs.<%= $master %>.http-client.experimental.with-metric-id.classifier.nodes.full-response.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "H",
@@ -1796,7 +1796,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.puppet-v3-catalog-/*/-percentage",
+              "measurement": "puppetlabs.<%= $master %>.http.puppet-v3-catalog-/*/-percentage",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "A",
@@ -1835,7 +1835,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.puppet-v3-report-/*/-percentage",
+              "measurement": "puppetlabs.<%= $master %>.http.puppet-v3-report-/*/-percentage",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "B",
@@ -1874,7 +1874,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.puppet-v3-node-/*/-percentage",
+              "measurement": "puppetlabs.<%= $master %>.http.puppet-v3-node-/*/-percentage",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "C",
@@ -1913,7 +1913,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.puppet-v3-file_metadatas-/*/-percentage",
+              "measurement": "puppetlabs.<%= $master %>.http.puppet-v3-file_metadatas-/*/-percentage",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "D",
@@ -1952,7 +1952,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.puppet-v3-file_metadata-/*/-percentage",
+              "measurement": "puppetlabs.<%= $master %>.http.puppet-v3-file_metadata-/*/-percentage",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "E",
@@ -1991,7 +1991,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.puppet-v3-file_content-/*/-percentage",
+              "measurement": "puppetlabs.<%= $master %>.http.puppet-v3-file_content-/*/-percentage",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "F",
@@ -2105,7 +2105,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.active-requests.count",
+              "measurement": "puppetlabs.<%= $master %>.http.active-requests.count",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "A",
@@ -2144,7 +2144,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.http.active-histo.mean",
+              "measurement": "puppetlabs.<%= $master %>.http.active-histo.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "B",
@@ -2256,7 +2256,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.file-sync-storage.commit-timer.mean",
+              "measurement": "puppetlabs.<%= $master %>.file-sync-storage.commit-timer.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "A",
@@ -2295,7 +2295,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.file-sync-client.clone-timer.mean",
+              "measurement": "puppetlabs.<%= $master %>.file-sync-client.clone-timer.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "B",
@@ -2334,7 +2334,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.file-sync-client.fetch-timer.mean",
+              "measurement": "puppetlabs.<%= $master %>.file-sync-client.fetch-timer.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "C",
@@ -2373,7 +2373,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "puppetlabs.pe-201720-master.example.com.file-sync-client.sync-timer.mean",
+              "measurement": "puppetlabs.<%= $master %>.file-sync-client.sync-timer.mean",
               "orderByTime": "ASC",
               "policy": "default",
               "refId": "D",

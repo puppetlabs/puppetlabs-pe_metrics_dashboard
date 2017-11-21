@@ -161,6 +161,7 @@ class pe_metrics_dashboard::install(
   if ($add_dashboard_examples) and ! $facts['overwrite_dashboards_disabled'] and ('graphite' in $influxdb_database_name){
     class {'pe_metrics_dashboard::dashboards::graphite':
       grafana_port => $grafana_http_port,
+      master_list  => $master_list,
     }
   }
 
